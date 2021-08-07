@@ -12,7 +12,7 @@ k3os:
   - nvme
   - nfs
   server_url: https://10.0.0.104:6443
-  token: "K10d1c9a74b7cd815905d2ef3d0f2196b2f01b53c98676f1ecc06a129c223b6aaa3::node:f6a3eccab2599c955f7778f4fee931c1"
+  token: 17f52301f0a047d6ece8e0be377894ab
   labels:
     node-role.kubernetes.io/worker: worker
   sysctl:
