@@ -13,6 +13,8 @@ k3os:
   - nfs
   server_url: https://10.0.0.104:6443
   token: K10d1c9a74b7cd815905d2ef3d0f2196b2f01b53c98676f1ecc06a129c223b6aaa3::server:f6a3eccab2599c955f7778f4fee931c1
+  labels:
+    node-role.kubernetes.io/worker: worker
   sysctl:
     kernel.printk: "4 4 1 7"
     kernel.kptr_restrict: "1"
