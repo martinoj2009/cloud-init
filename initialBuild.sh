@@ -21,4 +21,4 @@ _EOF_
 kubectl apply -f metallbconfig.yaml
 
 # Storage
-kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/v1.1.2/deploy/longhorn.yaml
+kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/v1.2.0/deploy/longhorn.yaml
