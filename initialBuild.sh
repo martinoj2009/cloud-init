@@ -22,3 +22,8 @@ kubectl apply -f metallbconfig.yaml
 
 # Storage
 kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/v1.2.0/deploy/longhorn.yaml
+
+#ArgoCD
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
